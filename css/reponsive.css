@@ -1,0 +1,52 @@
+@media screen and (max-width:1023px) {
+    body,html{width: 100%;}
+    section{margin: 100px;}
+    /*--------------------- main_visual 시작--------------------- */
+    .main_visual .slide_list .slide img{object-fit: cover;}
+    .main_visual .visual_txt{top: 40%;}
+    .main_visual .visual_txt .txt_1{font-size: 90px;}
+    .main_visual .visual_txt .txt_2{font-size: 20px;}
+    /*--------------------- about 시작 --------------------- */
+    .title{font-size: 50px;}
+    .about h3{font-size: 16px;}
+    .about .icons {margin: 80px 0;}
+    .about .icons .icon{margin: 0 80px;}
+    .about .icons .icon p{font-size: 20px;}
+    .about .icons .icon strong{font-size: 18px;}
+    /*--------------------- mpr 시작 --------------------- */
+    .mpr .box img{width:65%; height: 80%;}
+    .mpr .box .box_txt{margin: 150px 50px;}
+    .mpr .box .box_txt span{font-size: 16px;display: block;}
+    .mpr .box .box_txt strong{font-size: 40px;}
+    .mpr .box .box_txt p{font-size: 17px;margin-top: 50px;}
+    /*--------------------- wedo 시작 --------------------- */
+    .wedo h5{font-size: 16px;}
+    .wedo .object{width: 200px;height: 200px;right: -20px;top: 122px;}
+    .wedo .wedo_box {grid-template-columns: 1fr 1fr;}
+    .wedo .wedo_box .box{border-right: 1px solid #eee;}
+    /*--------------------- portfolio 시작 --------------------- */
+    .portfolio .obj{font-size: 100px;left: -100px;bottom: -100px;}
+    .portfolio .tab .btn_list li{padding: 10px 5px;}
+    .portfolio .tab .btn_list li a{font-size: 16px;}
+    .portfolio .tab .con_list{width: 100%;}
+    .portfolio .tab .con_list .con .item_list{grid-template-columns: 1fr 1fr 1fr;}
+    .portfolio .tab .con_list .con .item_list .item:nth-child(5){grid-column: 2 / span 2;}
+    .portfolio .tab .con_list .con .item_list .item:nth-child(6){grid-column: 1 / span 3;}
+    .portfolio .tab .con_list .con .item_list .item::after{top: -200%;}
+    .portfolio .tab .con_list .con .item_list .item:nth-child(6):after{width: 1200px;height: 700px;}
+    .portfolio .tab .con_list .con .item_list .item p{font-size: 14px;}
+   /*--------------------- with 시작 --------------------- */
+    .with .title{margin-left: 100px;}
+    .with .brand_area{margin: 50px;}
+    .with .brand_area .brand{margin: 10px;}
+    /*--------------------- contact 시작 --------------------- */
+    .contact .title{margin-left: 100px;}
+    .contact ul{margin: 25px 0  0 100px;padding-bottom: 100px;}
+    /*--------------------- footer 시작 --------------------- */
+    .footer_inner{margin: 0 100px;}
+    .footer_top ul li a{margin: 0 10px; font-size: 14px;}
+    .footer_logo{width: 20%;}
+    .footer_right .family_site{width: 180px;}
+    .footer_right ul{width: 180px;}
+    .footer_right ul li{font-weight: normal;}
+}
